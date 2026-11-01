@@ -1,0 +1,20 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local data and logs
+data/
+*.log
+
+# Secrets and local editor/OS files
+.streamlit/secrets.toml
+.vscode/
+.DS_Store
+Thumbs.db
